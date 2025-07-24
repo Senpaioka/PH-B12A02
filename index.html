@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Marking - Online shopping site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    
+<!-- nav -->
+
+<header class="header my-8">
+    <nav class="nav w-full max-w-7xl mx-auto flex place-content-between items-center px-3">
+        <div class="nav__logo">
+            <img src="assets/imgs/logo.png" alt="logo" class="nav__logo--img w-[70%] sm:w-full sm:h-auto">
+        </div>
+
+        <div class="nav__links">
+            <ul class="nav__ul flex gap-5 capitalize">
+                <a href="#" class="nav__link hidden sm:block inter-regular text-[#000000] hover:text-[#E95A08] duration-300"><li>home</li></a>
+                <a href="#" class="nav__link hidden sm:block  inter-regular text-[#818388] hover:text-[#E95A08] duration-300"><li>shop</li></a>
+                <a href="#" class="nav__link hidden sm:block inter-regular text-[#818388] hover:text-[#E95A08] duration-300"><li>about us</li></a>
+                <a href="#" class="nav__link inter-regular font-color-black"><li><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</li></a>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- banner/hero -->
+
+<main>
+
+    <section class="hero md:mt-60">
+        <div class="hero__container w-full max-w-7xl mx-auto flex flex-col-reverse gap-5 md:flex-row place-content-between items-center">
+            <div class="hero__text w-full md:w-1/2 text-center md:text-left px-5">
+                <h1 class="hero__heading_main noto-bold font-color-black text-2xl md:text-6xl">ALWAYS <span class="font-color-primary">FRESH</span></h1>
+                <h1 class="hero__heading_main noto-bold font-color-primary text-2xl md:text-6xl md:mt-5">FLOWERS</h1>
+
+                <p class="hero__subtext inter-regular font-color-gray text-[14px] md:text-xl mt-5">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+                    From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are 
+                    perfect for any occasion. 
+                </p>
+            </div>
+
+            <div class="hero__picture w-full md:w-1/2">
+                <img src="assets/imgs/hero-flower.png" alt="hero image" class="w-full">
+            </div>
+        </div>
+    </section>
+
+<!-- plants -->
+
+    <section class="plants">
+        <div class="plants__container w-full max-w-7xl mx-auto mt-14 sm:mt-30">
+            <h3 class="plants__heading noto-bold font-color-black text-center text-2xl sm:text-5xl">Our <span class="font-color-primary">Plants</span></h3>
+            <p class="plants__description w-full sm:w-[70%] mx-auto inter-regular font-color-gray text-[14px] sm:text-[22px] p-6">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. 
+                From classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
+
+            <div class="plants__main grid grid-cols-2 sm:grid-cols-4 sm:mt-8 text-center gap-5 sm:gap-8 px-3">
+                
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="plants__item">
+                    <img src="assets/imgs/sample-flower-image.png" alt="flower image" class="w-full h-auto">
+
+                    <div class="plants__info py-5">
+                        <h5 class="plants__name inter-medium text-base sm:text-[22px] font-color-black capitalize">Lily Blossom</h5>
+                        <h4 class="plants__price inter-bold text-base sm:text-[22px] font-color-black capitalize">20 USD</h4>
+                    </div>
+                    
+                    <div class="plants_link button-color py-2">
+                        <a href="#" class="uppercase text-base">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+
+</body>
+</html>
